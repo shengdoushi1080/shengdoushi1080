@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球知名品牌导航</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f7;
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 40px;
+        }
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .logo-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+        }
+        .logo-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>全球知名品牌</h1>
+    <div class="logo-grid">
+        <a href="https://www.apple.com" target="_blank" class="logo-item">
+            <img src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg" alt="Apple Logo">
+        </a>
+        <a href="https://www.tesla.com" target="_blank" class="logo-item">
+            <img src="https://www.tesla.com/themes/custom/tesla_frontend/assets/favicons/favicon-196x196.png" alt="Tesla Logo">
+        </a>
+        <a href="https://www.sony.com" target="_blank" class="logo-item">
+            <img src="https://www.sony.com/etc.clientlibs/global/clientlibs/clientlib-base/resources/sony-logo.svg" alt="Sony Logo">
+        </a>
+        <a href="https://www.samsung.com" target="_blank" class="logo-item">
+            <img src="https://www.samsung.com/etc/designs/smg/global/img/logo_logo_pri.svg" alt="Samsung Logo">
+        </a>
+        <a href="https://www.nike.com" target="_blank" class="logo-item">
+            <img src="https://www.nike.com/assets/experience/dotcom-commerce/navigation/header/v2/images/swoosh-logo-black.svg" alt="Nike Logo">
+        </a>
+    </div>
+</body>
+</html>
